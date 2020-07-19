@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1554205346435848784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554205346435848785}
+  - component: {fileID: 1895386538392076550}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1554205346435848785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554205346435848784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1895386538392076550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554205346435848784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f96ca6a62cb655428272bf0a196e8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 1d5d7528bc44363499832bbfcffcbd14, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
+  - name: Talk
+    clip: {fileID: 8300000, guid: 709a759996001cb47acf9bf01ab13607, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
+  - name: Pop
+    clip: {fileID: 8300000, guid: c8ccd815d8370a54f8c1b92a7144ba15, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
+  - name: Fish
+    clip: {fileID: 8300000, guid: f54d4f57480969e4fb89f0e9e92ee539, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
+  - name: Select
+    clip: {fileID: 8300000, guid: 7e14f181c584dc94e89c486c1a1ce631, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
+  - name: IncreaseScore
+    clip: {fileID: 8300000, guid: 9a9b8fe39bcf28e44a2aae55ca947ec3, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
+  - name: DecreaseScore
+    clip: {fileID: 8300000, guid: 94fd4853e36e11c4fbc3bcba4ecc352f, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mix: {fileID: 24300002, guid: 5089e033e13f452409598175eee5eac2, type: 2}
